@@ -95,10 +95,26 @@ header{
 }
 .title-txt{
     text-align: center;
+    margin-left: 300px;
+    margin-top:  100px;
+    margin-bottom: 50px;   
+}
+@media(max-width:912px){
+    .title-txt{
+        margin-left:50px;
+    }
+}
+.title-txt1{
+    margin-left: 200px;
+    text-align: center;
    
     margin-top:  100px;
     margin-bottom: 50px;
-    
+}
+@media(max-width:912px){
+    .title-txt1{
+        margin-left:200px;
+    }
 }
 .title-txt p{
     color: #3b8df3;
